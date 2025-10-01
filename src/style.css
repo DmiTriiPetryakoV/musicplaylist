@@ -1,9 +1,10 @@
 :root{
-    --color-main:#6a0dad;
-    --text-color:#f5f5f5;
+    --color-main:#121212;
+    --text-color:#2e2e2e;
     --backgrounde-color:#1a1a2e;
-    --accent:#ec4899;
-    --color-two-main:#9c45ed;
+    --accent:#eeeeee;
+    --color-two-main:#696969;
+    --grey:rgba(255, 255, 255, 0.24);
 }
 html,#app{
   width:100%;
