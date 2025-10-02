@@ -11,7 +11,7 @@
 import { ref } from "vue";
 import { useTrackStore } from "../store/tracks";
 import { useLoadingStore } from "../store/loading";
-const API_BASE_URL = 'https://deezer-proxy-backend.onrender.com?v=4'
+const API_BASE_URL = 'https://deezer-proxy-backend.onrender.com?v=4'+ Date.now()
 const trackStore = useTrackStore()
 const loadingStore = useLoadingStore();
 const query = ref()
